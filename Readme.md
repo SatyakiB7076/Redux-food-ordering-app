@@ -1,1 +1,1 @@
-## Shopping List using React and Redux
+## Shopping cart using React and Redux
