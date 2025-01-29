@@ -1,5 +1,7 @@
 import React from 'react'
 import Table from 'react-bootstrap/Table';
+import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+
 const CardsDetails = () => {
   return (
     <div className='container mt-2' >
@@ -13,11 +15,16 @@ const CardsDetails = () => {
 <Table>
   <tr>
     <td>
-      <p><strong>Resturant</strong>:Massala Theoryy</p>
-      <p><strong>Price</strong>350</p>
-      <p><strong>Dishes</strong>North Indian, Biryani, Mughlai</p>
-      <p><strong>Total</strong>350</p>
+      <p><strong>Resturant</strong> :Massala Theoryy</p>
+      <p><strong>Price</strong> ₹350</p>
+      <p><strong>Dishes</strong> North Indian, Biryani, Mughlai</p>
+      <p><strong>Total</strong> ₹350</p>
       
+    </td>
+    <td>
+    <p><strong>Rating</strong> <strong style={{backgroundColor:"green",color:"#fff",padding:"2px 5px",borderRadius:"5px"}}>3.8★</strong></p>
+    <p><strong>Order Review</strong> 1175 + order placed from here recently</p>
+    <p><strong>Remove</strong><span> <DeleteForeverIcon style={{color:"red",marginBottom:"3px",cursor:"pointer"}}/></span></p>
     </td>
   </tr>
 </Table>
